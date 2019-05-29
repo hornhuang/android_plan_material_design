@@ -1,3 +1,25 @@
 <resources>
-    <string name="app_name">android_plan_material_design</string>
+    <!-- Material Design-->
+    <string name="app_name">Material Design</string>
+    <string name="action_settings">设置</string>
+    <string name="action_search">搜索</string>
+    <string name="drawer_open">打开</string>
+    <string name="drawer_close">关闭</string>
+
+    <string name="nav_item_home">首页</string>
+    <string name="nav_item_friends">圈子</string>
+    <string name="nav_item_notifications">消息</string>
+
+    <!-- navigation drawer item labels  -->
+    <string-array name="nav_drawer_labels">
+        <item>@string/nav_item_home</item>
+        <item>@string/nav_item_friends</item>
+        <item>@string/nav_item_notifications</item>
+    </string-array>
+
+    <string name="title_messages">消息</string>
+    <string name="title_friends">圈子</string>
+    <string name="title_home">首页</string>
+
+    <string name="hello_blank_fragment">欢迎来到碎片世界</string>
 </resources>

@@ -1,11 +1,17 @@
 <resources>
 
     <!-- Base application theme. -->
-    <style name="AppTheme" parent="Theme.AppCompat.Light.DarkActionBar">
-        <!-- Customize your theme here. -->
+    <style name="MyMaterialTheme" parent="MyMaterialTheme.Base"
+        >
+    </style>
+
+    <!--打开styles.xml文件加入以下代码，在这里定义的style对于所有的androidbanben都是通用的。-->
+    <style name="MyMaterialTheme.Base"                 parent="Theme.AppCompat.Light.NoActionBar">
+        <item name="android:windowNoTitle">true</item>
+        <item name="windowActionBar">false</item>
         <item name="colorPrimary">@color/colorPrimary</item>
         <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
-        <item name="colorAccent">@color/colorAccent</item>
+        <item name="colorAccent">@color/purple</item>
     </style>
 
 </resources>

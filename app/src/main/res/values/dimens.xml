@@ -1,0 +1,13 @@
+<resources>
+    <!--在过去多个项目中一直使用dimens适配,这种适配方式的优点很明显,不用管什么dp还是dpi这些东西,-->
+    <!--只需要以一种屏幕分辨率为基准(例如1280x720,相当于把屏幕宽分成720份,高分成1280份),生成对-->
+    <!--应屏幕分辨率的的dimens文件即可完成适配,缺点也比较明显,就是一种分辨率就需要一套dimens文件,-->
+    <!--所以dimens文件会比较多-->
+    <!-- Default screen margins, per the Android Design guidelines. -->
+    <dimen name="empty_width">0dp</dimen>
+    <dimen name="empty_height">0dp</dimen>
+    <dimen name="activity_horizontal_margin">16dp</dimen>
+    <dimen name="activity_vertical_margin">16dp</dimen>
+    <dimen name="nav_drawer_width">260dp</dimen>
+
+</resources>

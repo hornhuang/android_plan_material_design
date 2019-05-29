@@ -10,16 +10,17 @@
         android:label="@string/app_name"
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
-        android:theme="@style/AppTheme">
-        <activity android:name=".version.VersionControlActivity"></activity>
-        <activity android:name=".MainActivity">
+        android:theme="@style/MyMaterialTheme">
+        <activity android:name=".activity.StartActivity">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-        <!-- Android 7.0 照片、APK下载保存路径-->
+        <activity android:name=".version.VersionControlActivity" />
+        <activity android:name=".activity.MainActivity"></activity>
+        <!-- Android 7.0 照片、APK下载保存路径 -->
         <provider
             android:name="android.support.v4.content.FileProvider"
             android:authorities="com.fishinwater.android_plan_material_design.fileProvider"
