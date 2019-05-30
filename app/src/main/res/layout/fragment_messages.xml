@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<com.fishinwater.android_plan_material_design.views.MaterialRelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
@@ -28,4 +28,16 @@
         android:gravity="center_horizontal"
         android:text="Edit fragment_home.xml to change the appearance" />
 
-</RelativeLayout>
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        android:background="@color/purple"
+        android:layout_margin="10dp"/>
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        android:background="@color/wheat"
+        android:layout_margin="10dp"/>
+
+</com.fishinwater.android_plan_material_design.views.MaterialRelativeLayout>
